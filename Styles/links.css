@@ -1,0 +1,60 @@
+body {
+  color: #E1E1E1;
+  font-family: 'Fira Code', monospace;
+  background-color: #100818;
+  margin: 10px;
+  padding: 25px 75px;
+  border: 0.5px #7FFF99 solid;
+}
+
+a:link {
+  color: #B462FF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9BE8A2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D999FF;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #7FFF99;
+}
+
+#MainNav {
+  background: #290C41;
+  border: 2px solid #B462FF;
+  border-radius: 20px;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+}
+
+#MainNav a {
+  color: #E1E1E1;
+}
+
+#MainNav a:hover {
+  color: #7FFF99;
+}
+
+#Links h1 {
+  color: #B462FF;
+}
+
+#Links small {
+  color: #9BE8A2;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+.links {
+  font-weight: bold;
+  color: #7FFF99;
+}

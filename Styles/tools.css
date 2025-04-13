@@ -1,0 +1,66 @@
+body {
+  color: #f34c4e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #384848;
+  margin: 10px;
+  border: 0.5px #fff solid;
+  padding: 25px 75px;
+}
+
+h1, h2, h3 {
+  color: #70cfce;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+a:link {
+  color: #45a5dd;
+  text-decoration: none;
+}
+a:active {
+  color: #bdcbf3;
+}
+
+a:visited {
+  color:#465c9a;
+  text-decoration: overline;
+}
+
+
+#MainNav {
+  width: 100%;
+  height: auto;
+  background: #64dbda;
+  border: 3px #9b2426 solid;
+  border-radius: 22px;
+  padding: 10px 25px;
+}
+
+#MainNav a {color: black;}
+#MainNav a:active {color: white;}
+#MainNav a:hover {
+  background: #fff7;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.in {display: inline;}
+
+#LogoContainer {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#Socials {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+a:hover {
+  color: #abf;
+}

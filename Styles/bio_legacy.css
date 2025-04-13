@@ -1,0 +1,23 @@
+.Cohc {
+    display: flex;
+    justify-content: center;
+    width:fit-content;
+    margin: auto;
+}
+
+#C {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border: 4px double white;
+    padding: 25px 155px;
+    background: #bbb;
+}
+
+p, small {
+    color: #d9d9d9;
+}
+
+b, i, a:link,
+a:visited {
+   color: #a5f3a2;
+}

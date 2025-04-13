@@ -1,0 +1,73 @@
+body {
+    background-color: #1e2a38;
+    color: #d9d9d9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+p, small {
+    color: #d9d9d9;
+}
+
+i, a:link{
+   color: #a5f3a2;
+}
+
+b, a:visited {
+    color: #64db81;
+}
+
+h1, h2, h3, h4 {
+    color: #59c3c3;
+    margin-top: 1.2em;
+}
+
+a {
+    color: #a5f3a2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #59c3c3;
+    margin: 40px 0;
+}
+
+#BioDesc ul li {
+    margin: 6px 0;
+}
+
+.Cohc {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+#C {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border: 4px double #ffffff;
+    padding: 25px 155px;
+    background: #2e3d4f;
+    border-radius: 10px;
+}
+
+#MainNav a {
+    margin-right: 10px;
+    color: #a5f3a2;
+    font-weight: bold;
+}
+
+#MainNav a:hover {
+    color: #ffffff;
+}
+
