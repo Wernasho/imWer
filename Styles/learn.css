@@ -1,0 +1,26 @@
+/* .maincode {
+    background: #000;
+    color: #fff;
+    display: block;
+    padding: 15px;
+    border: #666 inset 10px;
+    border-radius: 50px;
+}
+.example {
+    background: #000;
+    color: #fff;
+    display: block;
+    padding: 15px;
+}
+.com {color: #fff7;}
+.key {color:cadetblue;}
+.fun {color:rgb(1, 214, 214);} */
+.maincode, .example {
+    font-family: 'Courier New', monospace;
+    background: #111;
+    color: #eee;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #0008;
+    overflow-x: auto;
+}

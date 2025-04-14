@@ -3,6 +3,7 @@ body {
     color: #d9d9d9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
+/* margin: 25px; */
 }
 
 p, small {
@@ -10,12 +11,15 @@ p, small {
 }
 
 i, a:link{
-   color: #a5f3a2;
+    color: #a5f3a2;
 }
 
-b, a:visited {
-    color: #64db81;
+a:link {
+    text-decoration: underline;
+    font-weight:900;
 }
+
+b, a:visited {color: #64db81;}
 
 h1, h2, h3, h4 {
     color: #59c3c3;
@@ -39,9 +43,7 @@ hr {
     margin: 40px 0;
 }
 
-#BioDesc ul li {
-    margin: 6px 0;
-}
+#BioDesc ul li {margin: 6px 0;}
 
 .Cohc {
     display: flex;
@@ -67,7 +69,11 @@ hr {
     font-weight: bold;
 }
 
-#MainNav a:hover {
-    color: #ffffff;
+#MainNav a:hover {color: #fff;}
+
+#MainNav {
+    border: #afb outset 3px;
+    background: #a7bcc3;
 }
 
+#BioDesc, main {margin-top: 50px;}

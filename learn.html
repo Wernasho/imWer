@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> 'Learn' | Wernasho</title>
+    <link rel="stylesheet" href="Styles/Style.css">
+    <link rel="stylesheet" href="Styles/learn.css">
+    <link rel="icon" href="Imagenes/MainLogo.png">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+</head>
+<body>
+    <header>
+        <nav id="MainNav">
+            <a href="coding.html">La programación y yo | </a>
+            <a href="bio.html">Biografía | </a>
+            <a href="links.html">links | </a>
+            <a href="tools.html">Herramientas | </a>
+            <a href="misc.html">Extra | </a>
+            <a href="index.html">Main</a>
+        </nav>
+    </header>
+    <main>
+        <p>Índice</p>
+        <ul>
+            <li></li>
+        </ul>
+        <section class="js">
+            <article id="ArrowFun">
+                <h1>¿Qué son las Arrow Functions en JavaScript?</h1>
+                <p>Las <b>Arrow Functions</b> son una forma más corta de escribir funciones en JavaScript</p>
+                <p>Comparación entre una función "nomral" y una Arrow Function:</p>
+                <pre><code class="maincode language-javascript">
+//Función normal
+function displayMessage(name, message) {
+    console.log($`{name}`: ${message});
+}
+//Arrow Function:
+
+const displayMessage = (name, message) => `${name}: ${message}`;
+console.log(displayMessage("wer", "esto es una arrow function"));
+                </code></pre>
+                <h3>¿Qué significa todo eso?</h3>
+                <p>A ver, vamos a ir por partes.</p>
+                <pre><code class="example language-javascript">const displayMessage = (name, message)</code></pre>
+                <p>En esa línea declaramos la variable displayMessage y le asignamos una arrow function.</p>
+                <p>Luego, los parentesis, tal como en una función nomral, contienen los parámetros de la función.</p>
+                <pre><code class="example language-javascript"> => `${name}: ${message}`;</code></pre>
+                <p>Lo que hace esta línea es devolver el valor que esté luego de =>, ya que al ser solo un valor, JavaScript lo devuelve automáticamente sin necesidad de usar <code>return</code></p>
+            </article>
+    </section>
+  </main>
+</body>
+</html>

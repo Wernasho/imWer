@@ -64,3 +64,12 @@ a:visited {
 a:hover {
   color: #abf;
 }
+
+article {
+  margin-bottom: 25px;
+}
+
+small {
+  font-weight: bold;
+  color: yellow;
+}

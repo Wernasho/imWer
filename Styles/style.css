@@ -1,62 +1,72 @@
 body {
-  color: #cfcfcf;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #202020;
-  margin: 10px;
-  border: 0.5px #fff solid;
-  padding: 25px 75px;
+    color: #cfcfcf;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: #202020; */
+    background: rgb(12, 10, 10);
+    border-radius: 50px;
+    margin: 25px;
+    border: 0.5px #fff solid;
+    padding: 25px 75px;
 }
 
 section {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 a:link {
-  color: #919191;
-  text-decoration: none;
+    color: #919191;
+    text-decoration: none;
 }
-a:active {
-  color: #D8D8D8;
-}
+a:active {color: #D8D8D8;}
 
 a:visited {
-  color:#707070;
-  text-decoration: overline;
+    color:#707070;
+    text-decoration: overline;
 }
 
 
 #MainNav {
-  width: 100%;
-  height: auto;
-  background: #CECECE;
-  border: 3px #A0A0A0 solid;
-  border-radius: 22px;
-  padding: 10px 25px;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background: #CECECE;
+    border: 3px #A0A0A0 solid;
+    border-radius: 22px;
+    padding: 10px 25px;
+    backdrop-filter: blur(8px);
+    background-color: rgba(17, 17, 17, 0.7);
 }
 
-#MainNav a {color: black;}
-#MainNav a:active {color: white;}
+#MainNav a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+#MainNav a:active {color: #555;}
 #MainNav a:hover {
-  background: #d0d0d0;
-  padding: 4px;
-  border-radius: 5px;
+    background: #d0d0d0;
+    padding: 4px;
+    border-radius: 5px;
 }
 
 .in {display: inline;}
 
 #LogoContainer {
-  margin: auto;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #Socials {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 a:hover {
-  color: #abf;
+    color: #abf;
 }
+
+main {margin-top: 50px;}
